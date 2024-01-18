@@ -1488,8 +1488,91 @@ blockquote {
     margin:0;
 }
 
+/* 6.8 Contact us form */
 
+.contact-container{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.contact-left{
+    font-family: "fontAwesome";
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h1{
+    font-weight: 600;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 25px;
+    font-weight: 500;
+    color: grey;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid goldenrod;
+}
+
+.contact-inputs::placeholder{
+    color: grey;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, rgb(42, 145, 241), rgb(145, 151, 223));
+    cursor: pointer;
+}
+
+.contact-right iframe{
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+}
 /*------------------------------------------------------------------------------------------*/
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
