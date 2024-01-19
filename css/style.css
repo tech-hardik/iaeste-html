@@ -2676,4 +2676,42 @@ blockquote {
     background: #222222;
 }
 
+/* General CSS (applies to the entire page) */
+/* ... */
 
+/* Specific section styles */
+  
+.container *,
+.container *::before,
+.container *::after {
+    box-sizing: border-box;
+  }
+  
+.container p {
+    padding: 0;
+    margin: 0 0 15px 0;
+    color: #454545;
+    font-weight: 300;
+  }
+  
+  .container h1,
+  .container h2,
+  .container h3,
+  .container h4,
+  .container h5,
+  .container h6 {
+    padding: 0;
+    margin: 0 0 15px 0;
+    color: #333333;
+    font-weight: 700;
+  }
+  
+  .container h1 {
+    font-weight: 900;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
