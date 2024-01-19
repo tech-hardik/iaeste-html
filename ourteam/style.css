@@ -102,7 +102,7 @@ img {
     }
 }
 
-.row {
+.eh {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -162,7 +162,7 @@ img {
     }
 }
 
-.section-title h1 {
+.section-title-t h1 {
     color: #353535;
     font-size: 50px;
     letter-spacing: 5px;
@@ -172,14 +172,14 @@ img {
 
 /* Add additional styles for responsiveness */
 @media (max-width: 767.98px) {
-    .section-title h1 {
+    .section-title-t h1 {
         font-size: 40px;
         letter-spacing: 3px;
     }
 }
 
 @media (max-width: 567.98px) {
-    .section-title h1 {
+    .section-title-t h1 {
         font-size: 30px;
         letter-spacing: 2px;
     }
