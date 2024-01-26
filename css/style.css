@@ -1539,6 +1539,7 @@ blockquote {
     border: none;
     outline: none;
     padding: 25px;
+    font-family: "fontAwesome";
     font-weight: 500;
     color: grey;
     border-radius: 50px;
@@ -1634,7 +1635,7 @@ blockquote {
 
 #scrollUp:before {
     background: #000000;
-    font-family: "fontawesome";
+    font-family: "fontAwesome";
     font-size: 2.4em;
     font-style: normal;
     font-weight: normal;
@@ -2631,24 +2632,8 @@ blockquote {
     margin-top: 50px;
 }
 
-.team-2 .team-social a.social-tw {
-    background: #00acee;
-}
-
-.team-2 .team-social a.social-fb {
-    background: #3b5998;
-}
-
 .team-2 .team-social a.social-li {
     background: #0e76a8;
-}
-
-.team-2 .team-social a.social-in {
-    background: #3f729b;
-}
-
-.team-2 .team-social a.social-yt {
-    background: #c4302b;
 }
 
 .team-2 .team-social a:last-child {
@@ -2663,6 +2648,13 @@ blockquote {
     color: #222222;
     background: #ffffff;
 }
+
+@media (max-width: 767px) {
+    .team-2{
+        margin-left: 70px;
+    }
+  }
+  
 
 /**********************************/
 /********* Team #6 Style **********/
