@@ -2649,7 +2649,7 @@ blockquote {
     background: #ffffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1080px) {
     .team-2{
         margin-left: 70px;
     }
@@ -2660,7 +2660,7 @@ blockquote {
 /********* Team #6 Style **********/
 /**********************************/
 .team-6 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .team-6 .team-img {
