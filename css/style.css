@@ -2551,7 +2551,7 @@ blockquote {
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 180px;
+    width: 100%; /* Set width to 100% for responsiveness */
 }
 
 .team-2 .team-img {
@@ -2593,8 +2593,8 @@ blockquote {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
-
 }
+
 .team-2 .team-social {
     position: absolute;
     width: 100%;
@@ -2605,8 +2605,8 @@ blockquote {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, .5);
-    transition: all .3s;
+    background: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s;
     font-size: 0;
     z-index: 1;
     opacity: 0;
@@ -2628,7 +2628,7 @@ blockquote {
     text-align: center;
     color: #ffffff;
     border-radius: 5px;
-    transition: all .3s;
+    transition: all 0.3s;
     margin-top: 50px;
 }
 
@@ -2649,11 +2649,49 @@ blockquote {
     background: #ffffff;
 }
 
-@media (max-width: 1080px) {
-    .team-2{
-        margin-left: 70px;
+/* Media Queries */
+@media only screen and (max-width: 320px) {
+    /* Styles for screens up to 320 pixels wide */
+    .team-2 {
+        /* Adjust styles for smaller screens if needed */
     }
-  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    /* Styles for screens between 321 and 480 pixels wide */
+    .team-2 {
+        /* Adjust styles for smaller screens if needed */
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Styles for screens between 481 and 767 pixels wide */
+    .team-2 {
+        /* Adjust styles for smaller screens if needed */
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for screens between 768 and 991 pixels wide (tablet portrait) */
+    .team-2 {
+        /* Adjust styles for tablet portrait screens if needed */
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for screens between 992 and 1199 pixels wide (tablet landscape) */
+    .team-2 {
+        /* Adjust styles for tablet landscape screens if needed */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Styles for screens 1200 pixels wide and above (desktop) */
+    .team-2 {
+        /* Adjust styles for larger screens if needed */
+    }
+}
+
   
 
 /**********************************/
